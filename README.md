@@ -1,4 +1,4 @@
-#Movieflix casos de uso
+# Movieflix casos de uso
 
 Backend de uma aplicação de consulta e avaliação de filmes onde é necessário realizar o login para poder ter acesso a consulta de  filmes e avaliações existem duas categorias de usuários (membro e visitante)  onde apenas usuários membros podem deixar avaliações já consultas podem ser realizadas por qualquer usuário logado.
 
