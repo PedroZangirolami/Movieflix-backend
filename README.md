@@ -27,7 +27,7 @@ Genre:
 |GET|/genres|Retorna todos os gêneros de filmes|
 
 
-rEVIWE:
+Review:
 |Metodo http|EndPoints|Descrição|
 |---|---|---|
 |POST|/reviews|Insere uma nova avaliação para um filme|
