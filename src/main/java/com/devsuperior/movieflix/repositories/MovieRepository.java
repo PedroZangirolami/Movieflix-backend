@@ -2,6 +2,7 @@ package com.devsuperior.movieflix.repositories;
 
 import com.devsuperior.movieflix.entities.Genre;
 import com.devsuperior.movieflix.entities.Movie;
+import com.devsuperior.movieflix.entities.Review;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -15,4 +16,5 @@ public interface MovieRepository extends JpaRepository<Movie, Long> {
 
     @Query(nativeQuery = true, value = "SELECT * FROM tb_movie WHERE (tb_movie.genre_id = :genre OR :genre = 0) ORDER BY title")
     public Page<Movie> findByGenre(String genre, Pageable pageable);
+
 }
